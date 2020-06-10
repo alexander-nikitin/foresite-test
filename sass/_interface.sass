@@ -1,0 +1,65 @@
+.section
+  &__title
+    &-heading
+      position: relative
+      margin-bottom: 37px
+      font-family: 'Montserrat', sans-serif
+      font-weight: 400
+      font-size: 30px
+      text-align: center
+      color: $dark
+      & span
+        font-family: 'Montserrat', sans-serif
+        font-weight: 700
+        color: $primary-sec
+      &::after
+        content: ''
+        position: absolute
+        left: 50%
+        bottom: -21px
+        transform: translateX(-50%)
+        width: 85px
+        height: 3px
+        background-color: $primary
+      &_light
+        position: relative
+        color: $light
+        & span
+          font-family: 'Montserrat', sans-serif
+          font-weight: 700
+          color: $light
+        &::after
+          content: ''
+          position: absolute
+          left: 50%
+          bottom: -21px
+          transform: translateX(-50%)
+          width: 85px
+          height: 3px
+          background-color: $light
+    &-subtitle
+      font-family: 'Lato Regular', sans-serif
+      font-weight: 400
+      font-size: 20px
+      text-align: center
+      color: $dark
+      &_light
+        color: $light
+.content-title
+  position: relative
+  font-family: 'Montserrat', sans-serif
+  font-weight: 400
+  font-size: 30px
+  color: $dark
+  & span
+    font-family: 'Montserrat', sans-serif
+    font-weight: 700
+    color: $primary-sec
+  &::after
+    content: ''
+    position: absolute
+    left: 0
+    bottom: -21px
+    width: 85px
+    height: 3px
+    background-color: $primary-sec
