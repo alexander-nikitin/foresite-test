@@ -1,0 +1,55 @@
+.header
+  padding-top: 32px
+  &__inner
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__left
+    display: flex
+    align-items: center
+  &__catalog
+    display: flex
+    align-items: center
+    margin-right: 40px
+    cursor: pointer
+    &-text
+      margin-left: 16px
+      font-family: 'CynthoNext-Bold', sans-serif
+      font-size: 15px
+      line-height: 18px
+      font-weight: 700
+  &__link
+    position: relative
+    margin-right: 30px
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
+    color: #000000
+    &::after
+      content: ''
+      position: absolute
+      left: 50%
+      bottom: -2px
+      transform: translateX(-50%)
+      width: 0%
+      height: 1px
+      background-color: #9B9B9B
+      transition: width .3s ease-in-out
+    &:hover::after, &:focus::after
+      width: 100%
+  &__right
+    display: flex
+    align-items: center
+  &__phone
+    margin-right: 30px
+    text-decoration: none
+    font-weight: 300
+    font-size: 14px
+    line-height: 17px
+    color: #000000
+  &__icon
+    margin-right: 20px
+    cursor: pointer
+  &__logo
+    &_popup
+      margin-left: 24px

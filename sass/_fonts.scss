@@ -1,27 +1,27 @@
 @font-face {
-  font-family: 'Lato Regular';
+  font-family: 'CynthoNext-Thin';
   src:
-  url('../fonts/lato/lato-regular.woff') format('woff'),
-  url('../fonts/lato/lato-regular.woff2') format('woff');
+  url('../fonts/cynthonext-thin/CynthoNext-Thin.woff') format('woff'),
+  url('../fonts/cynthonext-thin/CynthoNext-Thin.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Lato Bold';
+  font-family: 'CynthoNext-Light';
   src:
-  url('../fonts/lato/lato-bold.woff') format('woff'),
-  url('../fonts/lato/lato-bold.woff2') format('woff');
+  url('../fonts/cynthonext-light/CynthoNext-Light.woff') format('woff'),
+  url('../fonts/cynthonext-light/CynthoNext-Light.woff2') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Somatic-Rounded';
+  font-family: 'CynthoNext-Bold';
   src:
-  url('../fonts/somatic/Somatic-Rounded.woff') format('woff'),
-  url('../fonts/somatic/Somatic-Rounded.woff2') format('woff');
-  font-weight: normal;
+  url('../fonts/cynthonext-bold/CynthoNext-Bold.woff') format('woff'),
+  url('../fonts/cynthonext-bold/CynthoNext-Bold.woff2') format('woff');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }

@@ -1,0 +1,85 @@
+.popup-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 32px;
+  width: 100%;
+  height: 100vh;
+  background-color: #D8B28A;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s; }
+  .popup-menu_active {
+    opacity: 0.95;
+    visibility: visible; }
+  .popup-menu__content {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between; }
+  .popup-menu__item {
+    display: flex;
+    flex-direction: column; }
+    .popup-menu__item-title {
+      margin-bottom: 20px;
+      font-family: 'CynthoNext-Bold', sans-serif;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 20px;
+      color: #000000; }
+      .popup-menu__item-title_space {
+        margin-top: 40px; }
+    .popup-menu__item-link {
+      position: relative;
+      margin-bottom: 20px;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 20px;
+      color: #000000; }
+      .popup-menu__item-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 0%;
+        height: 1px;
+        background-color: #9B9B9B;
+        transition: width .3s ease-in-out; }
+      .popup-menu__item-link:hover::after, .popup-menu__item-link:focus::after {
+        width: 100%; }
+      .popup-menu__item-link_bold {
+        margin-bottom: 40px;
+        font-family: 'CynthoNext-Bold', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 20px;
+        color: #000000; }
+  .popup-menu__search-wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .popup-menu__search-icon {
+    margin-right: 20px; }
+  .popup-menu__search-input {
+    padding-bottom: 7px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000; }
+    .popup-menu__search-input::placeholder {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 20px;
+      color: #000000; }
+  .popup-menu__login-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .popup-menu__login-button {
+    background-color: transparent;
+    border: none;
+    font-family: 'CynthoNext-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer; }

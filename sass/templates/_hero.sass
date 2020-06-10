@@ -1,0 +1,41 @@
+.hero
+  padding-bottom: 40px
+  margin: 0 auto
+  max-width: 1440px
+  height: 680px
+  width: 100%
+  background: transparent url(../img/hero/hero.jpg) no-repeat center
+  background-size: cover
+  & .container
+    height: 100%
+  &__inner
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &__bottom
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__icon
+    margin-right: 18px
+    cursor: pointer
+  &__link
+    position: relative
+    margin-right: 15px
+    font-weight: 300
+    font-size: 14px
+    line-height: 17px
+    color: #000000
+    &::after
+      content: ''
+      position: absolute
+      left: 50%
+      bottom: -2px
+      transform: translateX(-50%)
+      width: 0%
+      height: 1px
+      background-color: #9B9B9B
+      transition: width .3s ease-in-out
+    &:hover::after, &:focus::after
+      width: 100%
